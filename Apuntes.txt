@@ -1,0 +1,5 @@
+
+Lo que ha de hacer el script es buscar el argumento ">put" y "Succesfully" (O Error)
+y generar un log (.txt) en el que se anoten el ">put" entero, el "Succesfully" entero y la hora y fecha de la ejecución del script.
+
+Python3
