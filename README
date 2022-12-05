@@ -1,5 +1,6 @@
 
 Lo que ha de hacer el script es buscar el argumento ">put" y "Succesfully" (O Error)
 y generar un log (.txt) en el que se anoten el ">put" entero, el "Succesfully" entero y la hora y fecha de la ejecución del script.
+Ha de coger el nombre del archivo mencionado en el "> put" (.xml) y luego mostrarlo en el log.
 
 Python3
