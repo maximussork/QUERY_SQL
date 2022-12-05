@@ -8,7 +8,7 @@ exec_time = dt.strftime("%d/%m/%Y %H:%M")
 logging.basicConfig(filename="log.txt", level=logging.ERROR)
 logerror_msg = "Execution time: " + exec_time + " - Error en SalidaFTP.txt. Por favor vuelva a intentarlo."
 
-with open('SalidaFTP.txt') as file:
+with open('SalidaFTP copy.txt') as file:
     ftp = file.read()
     if arg0 in ftp and arg1 in ftp:
         print('Congrats.')
