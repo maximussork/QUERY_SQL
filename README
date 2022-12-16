@@ -1,6 +1,7 @@
+LECTURA DE UNA STRING EN UNA BASE DE DATOS CON sys.argv
 
-Lo que ha de hacer el script es buscar el argumento ">put" y "Succesfully" (O Error)
-y generar un log (.txt) en el que se anoten el ">put" entero, el "Succesfully" entero y la hora y fecha de la ejecución del script.
-Ha de coger el nombre del archivo mencionado en el "> put" (.xml) y luego mostrarlo en el log.
+Este script inicia sesión en una base de datos de SQL según los parametros que tú le indiques dentro,ejecuta una query
+en la que abre una base de datos, y busca un patrón que le indiques en la primera columna y un match exacto en la segunda columna
 
-Python3
+Si lo encuentra, devuelve esa línea entera y genera un log con ella.
+En caso contrarío, avisa con un mensaje de error.
