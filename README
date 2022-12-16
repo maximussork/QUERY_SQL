@@ -1,3 +1,7 @@
+
+
+
+
 LECTURA DE UNA STRING EN UNA BASE DE DATOS CON sys.argv
 
 Este script inicia sesión en una base de datos de SQL según los parametros que tú le indiques dentro,ejecuta una query
@@ -5,3 +9,8 @@ en la que abre una base de datos, y busca un patrón que le indiques en la prime
 
 Si lo encuentra, devuelve esa línea entera y genera un log con ella.
 En caso contrarío, avisa con un mensaje de error.
+
+
+
+
+
