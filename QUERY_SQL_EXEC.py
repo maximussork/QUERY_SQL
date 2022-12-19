@@ -35,5 +35,5 @@ logerror_msg = select_in_db()
 if select_in_db() is None:
     print ("Error.")
 else:
-    pass
+    logging.error(logerror_msg)
 #Ejecución del script. Si select_in_db esta vacio, ignorara y pasará. En caso de que haya algo, se mostrará y se guardará en el log.
